@@ -13,7 +13,7 @@ If the dataset has more than 50 samples, the loop restarts.
 
   
  
-It then creates fake diploid samples, in fact duplicating the number of individuals, and mimicking ancient DNA.  
+It then creates fake haploid samples, in fact duplicating the number of individuals, and mimicking ancient DNA.  
 
 
   
