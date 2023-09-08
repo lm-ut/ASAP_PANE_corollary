@@ -1,6 +1,7 @@
 # ASAP_corollary
 
-### This script was used to further test ASAP (prj presented at ESHG23 and SMBE23)
+### Fake Haploids
+##### This script was used to further test ASAP (prj presented at ESHG23 and SMBE23)
 
 Takes a ped file and insert missing data randomly in the available alleles, but in a progressive fashion so that:
 
@@ -17,8 +18,19 @@ It then creates fake haploid samples, in fact duplicating the number of individu
 
 
   
-### Usage: python script.py input.ped output.ped  
+Usage: python script.py input.ped output.ped  
 
 
-  
+
+### BlockJackkife_PCA
+##### This script was used to further test ASAP (prj presented at ESHG23 and SMBE23)
+
+This script is currently not meant to be used outside the ASAP project.  
+
+Takes suffix of binary plink files and output 20 plink files with one SNP window removed, prepares also convertf par file for conversion (this step requires a simple bash script 'BED2EIG.sh').
+To modify window length, edit line 39 'nblocks' (default is 20). 
+
+Usage: python script.py suffix_bplink
+
+
 Questions or issues at ludovica.molinaro@kuleuven.be
