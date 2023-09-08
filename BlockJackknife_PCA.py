@@ -62,11 +62,11 @@ for block in range(0, num_lines, block_length):
     for run in range(1, 21):
         jack_file_name = file_name + "_Jackknife_" + str(run)
 
-    # Create par file
-    BED2EIG_Command = ["bash BED2EIG.sh " + jack_file_name + " " + jack_file_name]
-    process_bed2eig = subprocess.Popen(BED2EIG_Command, stdout=subprocess.PIPE, shell=True)
-    output, error = process_bed2eig.communicate()
+        # Create par file
+        BED2EIG_Command = ["bash BED2EIG.sh " + jack_file_name + " " + jack_file_name]
+        process_bed2eig = subprocess.Popen(BED2EIG_Command, stdout=subprocess.PIPE, shell=True)
+        output, error = process_bed2eig.communicate()
 
-    CC_Command = ["echo Control > pop_list.txt"]
-    process_cc = subprocess.Popen(CC_Command, stdout=subprocess.PIPE, shell=True)
-    output, error = process_cc.communicate()
+        CC_Command = ["echo Control > pop_list.txt"]
+        process_cc = subprocess.Popen(CC_Command, stdout=subprocess.PIPE, shell=True)
+        output, error = process_cc.communicate()
