@@ -30,6 +30,10 @@ This script is currently not meant to be used outside the ASAP project.
 Takes suffix of binary plink files and output 20 plink files with one SNP window removed, prepares also convertf par file for conversion (this step requires a simple bash script 'BED2EIG.sh').
 To modify window length, edit line 39 'nblocks' (default is 20). 
 
+
+### Eucl_dist_for_ASAP
+Won't be used in the final draf - messy, will be fixed in the future
+
 Usage: python script.py suffix_bplink
 
 
