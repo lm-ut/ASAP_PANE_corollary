@@ -34,6 +34,3 @@ To modify window length, edit line 39 'nblocks' (default is 20).
 ### Msprime simulations
 ###### This script creates 3 simulated groups, two sources and one admixed group
 The script was used to create multiple admixed groups that underwent different admixture generation times and a bottleneck after the admixture event. 
-
-
-Questions or issues at ludovica.molinaro@kuleuven.be
