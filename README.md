@@ -1,7 +1,7 @@
 # PANE (old ASAP) corollary 
 
 ### Fake Haploids
-##### This script was used to further test PANE/ASAP 
+##### This script was used to further test PANE/ASAP with aDNA-like data
 
 Takes a ped file and insert missing data randomly in the available alleles, but in a progressive fashion so that:
 
@@ -31,6 +31,9 @@ Takes suffix of binary plink files and output 20 plink files with one SNP window
 To modify window length, edit line 39 'nblocks' (default is 20). 
 
 
+### Msprime simulations
+###### This script creates 3 simulated groups, two sources and one admixed group
+The script was used to create multiple admixed groups that underwent different admixture generation times and a bottleneck after the admixture event. 
 
 
 Questions or issues at ludovica.molinaro@kuleuven.be
