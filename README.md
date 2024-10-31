@@ -1,7 +1,7 @@
-# ASAP_corollary
+# PANE (old ASAP) corollary 
 
 ### Fake Haploids
-##### This script was used to further test ASAP (prj presented at ESHG23 and SMBE23)
+##### This script was used to further test PANE/ASAP 
 
 Takes a ped file and insert missing data randomly in the available alleles, but in a progressive fashion so that:
 
@@ -31,10 +31,6 @@ Takes suffix of binary plink files and output 20 plink files with one SNP window
 To modify window length, edit line 39 'nblocks' (default is 20). 
 
 
-### Eucl_dist_for_ASAP
-Won't be used in the final draf - messy, will be fixed in the future
-
-Usage: python script.py suffix_bplink
 
 
 Questions or issues at ludovica.molinaro@kuleuven.be
