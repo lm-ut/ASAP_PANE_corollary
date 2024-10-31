@@ -23,7 +23,7 @@ Usage: python script.py input.ped output.ped
 
 
 ### BlockJackkife_PCA
-##### This script was used to further test ASAP (prj presented at ESHG23 and SMBE23)
+##### This script was used to further test ASAP (prj presented at ESHG23)
 
 This script is currently not meant to be used outside the ASAP project.  
 
