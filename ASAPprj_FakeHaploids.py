@@ -98,7 +98,7 @@ with open(ped_file) as ped, open(aDNA_ped_file, "w") as output:
             alleles_to_aDNA[x] = [0, 0]
 
         # Now we need to resample each item of the [A,T] and create a fake diploid
-        # There's someting wrong with this loop/order, you should end up with 6 alleles each row
+        # There's something wrong with this loop/order, you should end up with 6 alleles each row
 
         new_ref_alleles_combinations = []
         new_alt_alleles_combinations = []
